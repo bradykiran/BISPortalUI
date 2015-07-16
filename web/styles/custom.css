@@ -2,21 +2,26 @@
     Created on : Jul 15, 2015, 9:31:11 AM
     Author     : kgaitonde
 */
-html,body{
-height:100%;
-padding: 0;
-margin: 0;
+body {
+    background-color: #F9F9F9;
 }
 
 .navbar,nav,collapse{ 
-    height:80px;     
+    height:95px;     
 }
 
 .brady-color{ 
     background: rgba(76,142,192,1);
 }
 
-.widget{
+.video-widget{
+    height: 199px;
+    width:  350px;  
+}
+.weather-widget{
     height: 189px;
     width:  350px;  
+}
+.remember-me{
+    color:white;
 }

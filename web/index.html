@@ -19,7 +19,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     </head>
 
-    <body background="images/background.jpg">
+    <body>
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -37,9 +37,19 @@
                         <li><a href="#">Link 2</a></li> 
                         <li><a href="#">Link 3</a></li> 
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    </ul>
+                    <form class="navbar-form navbar-right" role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="username" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-log-in"> Login</button><br>
+                        <div class="checkbox">
+                           <label class="remember-me"><input type="checkbox" class="form-control" name="remember"> Remember me</label>
+                        </div>
+
+                    </form>
                 </div>
             </div>
         </nav>
@@ -91,15 +101,15 @@
                 <div class="col-sm-6 col-md-4 col-lg-4">                
                     <fieldset>
                         <legend> Weather</legend>
-                        <a href="undefined" class="aw-widget-legal">
-                        </a><div id="awcc1437072856452" class="aw-widget-current"  data-locationkey="329822" data-unit="c" data-language="en-us" data-useip="true" data-uid="awcc1437072856452"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+                        <a href="undefined" class="aw-widget-legal weather-widget">
+                        </a><div id="awcc1437072856452" class="aw-widget-current weather-widget"  data-locationkey="329822" data-unit="c" data-language="en-us" data-useip="true" data-uid="awcc1437072856452"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
                     </fieldset>
                 </div>
 
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <fieldset>
                         <legend> Video </legend>
-                        <object id="video" data="https://www.youtube.com/embed/i0g38pRuB70?list=PL-YUlD08fjxj_0v-8b_F4Uj-UgfW-50kT" class="widget"></object>
+                        <object id="video" data="https://www.youtube.com/embed/i0g38pRuB70?list=PL-YUlD08fjxj_0v-8b_F4Uj-UgfW-50kT" class="video-widget"></object>
                     </fieldset>
                 </div>           
 
@@ -121,11 +131,11 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6 col-md-6 col-lg-6">     
-                                <p>Link1</p>
-                                <p>Link2</p>                      
+                                <p>Link1</p> 
+                                <p>Link2</p>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6">
-                                <p>Link4</p>
+                                <p>Link3</p>
                                 <p>Link5</p>
                             </div>           
                         </div>
