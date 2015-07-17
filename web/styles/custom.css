@@ -3,25 +3,16 @@
     Author     : kgaitonde
 */
 body {
-    background-color: #F9F9F9;
+    //background-color: #F9F9F9;
+    background-color: rgba(76,142,192,1);;
 }
 
-.navbar,nav,collapse{ 
-    height:95px;     
+.foot{ 
+    background: rgba(1,1,1,0.8);
 }
 
-.brady-color{ 
-    background: rgba(76,142,192,1);
-}
 
-.video-widget{
-    height: 199px;
-    width:  350px;  
-}
-.weather-widget{
-    height: 189px;
-    width:  350px;  
-}
+
 .remember-me{
     color:white;
 }
