@@ -2,11 +2,6 @@
     Created on : Jul 15, 2015, 9:31:11 AM
     Author     : kgaitonde
 */
-body {
-   
-    //background-color: #F9F9F9;
-   // background-color: rgba(76,142,192,0.9);;
-}
 
 .foot{ 
     background: rgba(1,1,1,0.9);
@@ -22,3 +17,15 @@ body {
 .remember-me{
     color:white;
 }
+
+.intro-section{
+    background-image: url("../images/background.jpg");
+}
+
+.navbar-default{
+    background: #29ABE2;
+    background-image:none;
+    border:none;
+    color: white;    
+}
+
