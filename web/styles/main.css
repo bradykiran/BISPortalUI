@@ -18,8 +18,12 @@
     color:white;
 }
 
-.intro-section{
+.index-image{
     background-image: url("../images/background.jpg");
+}
+
+.black-border{
+    border-color:black;
 }
 
 .navbar-default{

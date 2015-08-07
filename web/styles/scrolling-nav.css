@@ -35,8 +35,10 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
+
+
 
 .login-section {
     height: 100%;
@@ -45,30 +47,31 @@ of those sections to manage the look and feel of the site. */
     background: #eee;
 }
 
-.register-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
 
 .about-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
-    background: #eee;
+    text-align: left;
+    background: #fff;
 }
 
 .blog-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
+    text-align: left;
+    background: #eee;
+}
+
+.blog-post {
+    //height: 100%;
+    padding-top: 150px;
+    text-align: left;
     background: #fff;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
-    background: #eee;
+    text-align: left;
+    background: #fff;
 }
