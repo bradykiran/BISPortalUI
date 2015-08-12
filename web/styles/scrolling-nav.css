@@ -84,3 +84,31 @@ of those sections to manage the look and feel of the site. */
     text-align: left;
     background: #fff;
 }
+
+// admin page
+
+.user-project-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #fff;
+}
+
+
+.user-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #fff;
+}
+
+.project-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #fff;
+}
+
+.center-align{
+    text-align :center;
+}
