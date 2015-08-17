@@ -27,9 +27,16 @@
 }
 
 .navbar-default{
-    background: #29ABE2;
+    background: #4D8EC1;
     background-image:none;
-    border:none;
-    color: white;    
+    border: none;      
+    opacity: 0.95;
 }
 
+.scroll-elements{
+    color: black;
+}
+
+.error-message{
+    color:red;
+}

@@ -19,7 +19,7 @@ $(function () {
 });
 
 
-
+// jquery to fade in and out
 (function ($) {
   $(document).ready(function(){
 
