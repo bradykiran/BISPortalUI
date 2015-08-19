@@ -96,9 +96,9 @@ of those sections to manage the look and feel of the site. */
 // admin page
 
 .user-project-section {
-    height: 100%;
+   height: 100%;
     padding-top: 150px;
-    text-align: left;
+    text-align: center;
     background: #fff;
 }
 
@@ -106,14 +106,14 @@ of those sections to manage the look and feel of the site. */
 .user-section {
     height: 100%;
     padding-top: 150px;
-    text-align: left;
+    text-align: center;
     background: #fff;
 }
 
 .project-section {
     height: 100%;
     padding-top: 150px;
-    text-align: left;
+    text-align: center;
     background: #fff;
 }
 
